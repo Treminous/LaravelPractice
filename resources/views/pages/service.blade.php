@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{config('app.name','Laravel')}}</title>
-    <h1>About Page</h1>
-    <p style="color:red;"> This is an about page</p>
+    <h1>Service Page</h1>
+    <p style="color:red;"> This is a service Page</p>
 </head>
 <body>
     

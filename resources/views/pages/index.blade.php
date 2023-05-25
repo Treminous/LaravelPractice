@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{config('app.name','Laravel')}}</title>
     <h1>Index Page</h1>
-    <p style="color:red;"> Access by controller</p>
+    <p style="color:red;"> This is an index page</p>
 </head>
 <body>
     
