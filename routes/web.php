@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //      return view('welcome');
 //     // return "Hello World";
 // });
-Route::get('/', 'pagesController@index');
+Route::get('/', [pagesController::class,'index']);
 Route::get('/about', function()
 {
     return view('pages.about');
