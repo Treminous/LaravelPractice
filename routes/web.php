@@ -23,7 +23,7 @@ Route::get('/about', function()
     return view('pages.about');
 });
 //Insert dynamic values
-Route::get('/users/{$id}',function($id)
+Route::get('/users/{id}/{name}',function($id,$name)
 {
-    return "This is your ".$id;
+    return "This is your   ".$name. " with an id  ". $id;
 });
