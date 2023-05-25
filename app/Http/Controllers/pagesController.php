@@ -11,13 +11,19 @@ class pagesController extends Controller
         $title="WELCOME TO LARAVEL!";
         return view('pages.index',compact('title'));
     }
+    //Passing value
     public function about()
-    {
-        return view('pages.about');
+    {   
+        $title="About Us";
+        return view('pages.about')->with('title',$title);
 
     }
+    //Passing multiple values
     public function service()
     {
-        return view('pages.service');
+        $data=array(
+            'title'=>"SERVICES!"
+        );
+        return view('pages.service')->with($data);
     }
 }
