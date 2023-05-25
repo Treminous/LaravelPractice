@@ -20,10 +20,8 @@ use Illuminate\Support\Facades\Route;
 //     // return "Hello World";
 // });
 Route::get('/', [pagesController::class,'index']);
-Route::get('/about', function()
-{
-    return view('pages.about');
-});
+Route::get('/about', [pagesController::class,'about']);
+Route::get('/service',[pagesController::class,'about']);
 //Insert dynamic values
 Route::get('/users/{id}/{name}',function($id,$name)
 {
