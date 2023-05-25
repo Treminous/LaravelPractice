@@ -22,3 +22,8 @@ Route::get('/about', function()
 {
     return view('pages.about');
 });
+//Insert dynamic values
+Route::get('/users/{$id}',function($id)
+{
+    return "This is your ".$id;
+});
