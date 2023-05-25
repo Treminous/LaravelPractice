@@ -9,6 +9,7 @@
     <p style="color:red;"> This is an index page</p>
 </head>
 <body>
+    @yield('content')
     
 </body>
 </html>
