@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', [pagesController::class,'index']);
 Route::get('/about', [pagesController::class,'about']);
-Route::get('/service',[pagesController::class,'about']);
+Route::get('/service',[pagesController::class,'service']);
 //Insert dynamic values
 Route::get('/users/{id}/{name}',function($id,$name)
 {
